@@ -1,0 +1,32 @@
+env: pushbox
+
+env_args:
+  reward_scale: 1.0
+  map_name: "pushbox"
+  s_data_path: "./results/pb/"
+  s_try_num: 1
+  seed: null
+  n_ball: 1
+  H: 300
+  episode_length: 300
+  grid_size: 15
+  size: 15
+  n_actions: 4
+  n_agents: 2
+  n_agent: 2
+  alg_name: "qmix"
+
+
+# ------------test----------------------
+test_greedy: True
+test_nepisode: 32
+test_interval: 10000
+log_interval: 10000
+runner_log_interval: 10000
+learner_log_interval: 10000
+t_max: 6150000
+seed: null
+# ------------test----------------------
+
+
+
