@@ -1,0 +1,49 @@
+# --- QMIX specific parameters ---
+
+# use epsilon greedy action selector
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 50000
+
+runner: "episode"
+run: "run_sub"
+rwd_ext_lambda: 1
+rwd_int_lambda: 1
+
+
+buffer_name: "episode_buffer_per"
+buffer_epsilon: 0.01
+buffer_alpha: 0
+buffer_beta: 0.4
+buffer_beta_increment_per_sampling: 0.0001
+buffer_abs_err_upper: 30
+buffer_size: 5000  # 5000
+# update the target network every {} episodes
+# debug
+target_update_interval: 200 # 200
+mask_update_interval: 200  # 200
+mask_batch: 128 #128
+episode_before_sample: 128 # 128
+batch_size: 32
+
+# test
+#target_update_interval: 200 # 200
+#mask_update_interval: 20  # 200
+#mask_batch: 8 #128
+#episode_before_sample: 8 # 128
+
+
+# use the Q_Learner to train
+agent_output_type: "q"
+learner: "q_uesm_l_learner"   # q_sp_mask_per_learner   q_uesm_l_learner
+td_lambda: False
+lambdaa: 0.8
+
+double_q: True
+mixer: "qmix"
+mixing_embed_dim: 32
+hypernet_layers: 2
+hypernet_embed: 64
+
+name: "qmix_sp_mask_per"

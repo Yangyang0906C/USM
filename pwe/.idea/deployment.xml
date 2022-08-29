@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="42_pwe_f">
+    <serverData>
+      <paths name="14_refil_ga">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="42_pwe">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="42_pwe_f">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yuyang/w2/PWE_F" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/yuyang/w2/PWE_F/results/" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="42_pwe_git">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yuyang/w2/w1_git/pwe" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/yuyang/w2/w1_git/pwe/results/" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="77_nmmo">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
