@@ -1,4 +1,4 @@
-# REFIL
+# USM
 Code for **Underexplored Subspace Mining for Agents in Sparse-Reward Cooperative Games**
 
 This codebase is built on top of the [PyMARL](https://github.com/oxwhirl/pymarl) framework for multi-agent reinforcement learning algorithms.
